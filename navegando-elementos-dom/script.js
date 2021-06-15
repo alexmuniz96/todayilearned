@@ -41,4 +41,3 @@ console.log(element2.previousSibling)
 
 // previousElementSibling- elemento anterior
 console.log(element2.previousElementSibling)
-
