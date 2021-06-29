@@ -9,14 +9,15 @@ button.onclick = function(){
   modal.classList.remove("invisible")
 }
 
-modal.onkeydown = function(event){
+document.onkeydown = function(event){
   const keyExists = event.key === "Escape"
 
-  if (keyExists ){
+  if (keyExists){
     modal.classList.add("invisible")
     console.log("executado")
   }
 }
+
 
 
 
