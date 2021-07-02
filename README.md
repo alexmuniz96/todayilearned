@@ -11,6 +11,10 @@
 
  ## Estudos de Node.js
 - [Iniciando aprendizado](https://github.com/alexmuniz96/todayilearned/blob/master/Node/estudos-de-node/iniciando-aprendizado.md)
+###  [Mini aplicação bestMeApp](https://github.com/alexmuniz96/todayilearned/tree/master/Node/estudos-de-node/bestMeApp) 
+Uma mini aplicação de perguntas para refletir sobre a jornada ao final do dia
+
+A aplicação foi feita para praticar o aprendizado do Node.js no `process.stout` ,  `process.stin` e `process.on`.
 
 
 
