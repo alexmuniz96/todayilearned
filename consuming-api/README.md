@@ -9,7 +9,7 @@
 
 ## Front-end
 Consumir API
--[x] Utilizar o fetch para consumir a API do Backend
--[x] Promise - Async/Await
--[x] Usar try/catch
--[x] Mostrar resposta na tela
+- [x] Utilizar o fetch para consumir a API do Backend
+- [x] Promise - Async/Await
+- [x] Usar try/catch
+- [x] Mostrar resposta na tela
