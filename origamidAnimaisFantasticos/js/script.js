@@ -5,7 +5,8 @@ import initAnimate from "./animateScroll.js"
 import initModal from "./modal.js"
 import initTooltip from "./tooltip.js"
 import initDropdown from "./dropdown.js"
-import menuMobile from "./menu-mobile.JS"
+import menuMobile from "./menu-mobile.js"
+import initNumbersAnimate from "./numbersAnimate.js"
 
 initTabNavMenu()
 initAccordion()
@@ -15,3 +16,4 @@ initModal()
 initTooltip()
 initDropdown()
 menuMobile()
+initNumbersAnimate()
