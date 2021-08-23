@@ -9,6 +9,8 @@ export default function initAnimate(){
           const isSectionVisible = (topDistance - windowHalf) < 0
           if (isSectionVisible) {
             el.classList.add("ativo")
+          } else if(el.classList.contains("ativo")){
+            el.classList.remove("ativo")
           }
         })
       }
