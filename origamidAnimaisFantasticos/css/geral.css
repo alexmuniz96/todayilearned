@@ -156,6 +156,8 @@ body {
   font-family: "IBM Plex Mono";
   font-weight: bold;
 }
+
+
 @media (max-width: 700px) {
   body {
     grid-template-columns: 1fr;
@@ -254,4 +256,28 @@ body {
 [data-anime='scroll'].ativo{
   opacity: 1;
   transform: translate3d(0px, 0, 0);
+}
+[data-week="1,2,3,4,5"]{
+  display: flex;
+  align-items: center;
+}
+[data-week="1,2,3,4,5"].open::after{
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color:#00FF00;
+  border: solid 2px #222;
+  margin-left: 4px;
+}
+[data-week="1,2,3,4,5"].close::after{
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color:#e54;
+  border: solid 2px #222;
+  margin-left: 4px;
 }
