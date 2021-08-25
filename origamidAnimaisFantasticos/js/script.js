@@ -7,6 +7,7 @@ import initTooltip from "./tooltip.js"
 import initDropdown from "./dropdown.js"
 import menuMobile from "./menu-mobile.js"
 import initNumbersAnimate from "./numbersAnimate.js"
+import initOpeningHours from "./openingHours.js"
 
 initTabNavMenu()
 initAccordion()
@@ -17,3 +18,4 @@ initTooltip()
 initDropdown()
 menuMobile()
 initNumbersAnimate()
+initOpeningHours()
