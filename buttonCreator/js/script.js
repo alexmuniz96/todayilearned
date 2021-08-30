@@ -39,11 +39,27 @@ function handleChange(event){
   const value = event.target.value
   handleStyle[name](value)
   outputCss()
+  storageValues(name,value)
 }
 
 form.addEventListener("change", handleChange)
 
 function outputCss(){
   css.innerHTML = "<span>" + button.style.cssText.split("; ").join("; </span><span>")
-  console.log(button.style.cssText.split("; ").join("; </span><span>"))
 }
+
+function storageValues(name,value) {
+ localStorage[name] = value
+}
+
+function checkStorageValues() {
+  const properties = Object.keys(localStorage)
+  properties.forEach((el)=>{
+    handleStyle[el](localStorage[el])
+    controles.elements[el].value =  localStorage[el]
+    outputCss()
+  })
+}
+
+console.log(controles.elements)
+checkStorageValues()
