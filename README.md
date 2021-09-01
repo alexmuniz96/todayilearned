@@ -22,6 +22,11 @@
 - [Concretizando aprendizado com modal simples](https://github.com/alexmuniz96/todayilearned/tree/master/Modal)
 
 - [Animais Fantasticos, site simples para treinar Javascript](https://github.com/alexmuniz96/todayilearned/tree/master/origamidAnimaisFantasticos)
+
+- [Gerador de botão com javascript](https://github.com/alexmuniz96/todayilearned/tree/master/buttonCreator)
+
+- [Estudando a Fetch API](https://github.com/alexmuniz96/todayilearned/tree/master/fetch)
+
 ### [Timer](https://github.com/alexmuniz96/todayilearned/tree/master/timer)
 
 Desenvolvimento de um timer simples usando o  `setInterval()`  e  `clearInterval()`
