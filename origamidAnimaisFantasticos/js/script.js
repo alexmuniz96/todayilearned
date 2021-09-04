@@ -8,7 +8,7 @@ import initDropdown from "./dropdown.js"
 import menuMobile from "./menu-mobile.js"
 import initOpeningHours from "./openingHours.js"
 import initFetchAnimais from "./fetchAnimais.js"
-
+import initFetchBitcoin from "./fetchBitcoin.js"
 initTabNavMenu()
 initAccordion()
 initScroll()
@@ -19,3 +19,4 @@ initDropdown()
 menuMobile()
 initOpeningHours()
 initFetchAnimais()
+initFetchBitcoin()

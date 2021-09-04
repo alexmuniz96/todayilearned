@@ -281,3 +281,9 @@ body {
   border: solid 2px #222;
   margin-left: 4px;
 }
+
+.btn-preco{
+  background: #00FF00;
+  padding: 4px;
+  font-weight: bold;
+}
