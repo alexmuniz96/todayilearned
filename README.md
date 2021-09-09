@@ -29,6 +29,8 @@
 
 ### [Timer](https://github.com/alexmuniz96/todayilearned/tree/master/timer)
 
+### [Mini aplicação de horário de funcionamento](https://github.com/alexmuniz96/todayilearned/tree/master/openingHours)
+
 Desenvolvimento de um timer simples usando o  `setInterval()`  e  `clearInterval()`
 
 ## Estudos de Node.js

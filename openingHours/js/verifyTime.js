@@ -13,16 +13,14 @@ export default function initVerifyTime(){
       const openingMorningHours = day.dataset.timeDay.split(",").map(Number)
       const openingNigthHours = day.dataset.timeNight.split(",").map(Number)
       day.parentNode.classList.add("active")
-
-      if(presentHours > openingMorningHours[0] && presentHours <openingMorningHours[1] ||
-        presentHours > openingNigthHours[0] && presentHours < openingNigthHours[1]){
+      if(presentHours >= openingMorningHours[0] && presentHours < openingMorningHours[1] ||
+        presentHours >= openingNigthHours[0] && presentHours < openingNigthHours[1]){
         btnRealTime.innerHTML = "Estamos Funcionando"
         btnRealTime.classList.add("active")
       } else{
         btnRealTime.innerHTML = "Estamos Fechados"
       }
     }
-
   })
 
 }
