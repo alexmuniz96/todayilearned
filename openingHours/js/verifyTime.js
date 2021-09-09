@@ -6,14 +6,12 @@ export default function initVerifyTime(){
   const presentDayWeek = presentDate.getDay()
   const presentHours = presentDate.getHours()
   const wrapperDay = document.querySelectorAll(".wrapper-day")
-  console.log(wrapperDay)
 
   dataDayWeek.forEach(day=>{
 
     if(day.dataset.day == presentDayWeek){
       const openingMorningHours = day.dataset.timeDay.split(",").map(Number)
       const openingNigthHours = day.dataset.timeNight.split(",").map(Number)
-      console.log(day.parentNode)
       day.parentNode.classList.add("active")
 
       if(presentHours > openingMorningHours[0] && presentHours <openingMorningHours[1] ||

@@ -151,3 +151,24 @@ h1{
   font-weight: normal;
   margin-left: 2rem;
 }
+
+@media (max-width: 800px) {
+  h1{
+    text-align: center;
+  }
+  .buttons{
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-complete{
+    margin-top: 2rem;
+    gap: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width:500px){
+  .buttons{
+    padding: 1rem;
+  }
+}
