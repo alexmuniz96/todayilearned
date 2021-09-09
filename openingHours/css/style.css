@@ -54,13 +54,31 @@ h1{
   padding: 2rem 3.5rem;
   border-radius: 5px;
   border: none;
-
+  display: flex;
+  align-items: center;
  }
 
 .btn-real-time{
   background: var(--black);
   color: var(--white);
   box-shadow: -2px 3px 5px  var(--black);
+}
+.btn-real-time.active::after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: var(--green);
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.btn-real-time::after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: var(--red);
+  border-radius: 50%;
+  margin-left: 1rem;
 }
 
 .btn-complete{
@@ -81,15 +99,18 @@ h1{
 }
 .modal-hours.active{
   display: block;
-  animation: show 1s forwards ;
+  animation: show .5s forwards ;
 }
 
 @keyframes show{
   from{
+    transform: translate3d(0,-15px,0);
     opacity: 0;
   }
   to{
     opacity: 1;
+    transform: translate3d(0,0,0);
+
   }
 }
 .modal-hours > span{
@@ -113,6 +134,11 @@ h1{
 
 .wrapper-day{
   display: flex;
+
+}
+.wrapper-day.active{
+  background: rgba(65, 52, 41, .30);
+  padding: .5rem 0;
 }
 .wrapper-day:nth-child(n + 2){
   margin-top: 15px;

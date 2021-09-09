@@ -1,9 +1,6 @@
-const btnComplete = document.querySelector(".btn-complete")
-const modalHours = document.querySelector(".modal-hours")
-const btnCloseModal = document.querySelector(".close-modal")
+import initModalHours from "./modalHours.js"
+import initVerifyTime from "./verifyTime.js"
 
-function handleClick(event){
-  modalHours.classList.toggle("active")
-}
-btnComplete.addEventListener("click",handleClick)
-btnCloseModal.addEventListener("click",handleClick)
+
+initModalHours()
+initVerifyTime()
