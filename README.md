@@ -27,6 +27,10 @@
 
 - [Estudando a Fetch API](https://github.com/alexmuniz96/todayilearned/tree/master/fetch)
 
+- [Function Expression](https://github.com/alexmuniz96/todayilearned/tree/master/function-expression)
+
+- [Factory Function](https://github.com/alexmuniz96/todayilearned/tree/master/factory-function)
+
 ### [Timer](https://github.com/alexmuniz96/todayilearned/tree/master/timer)
 
 ### [Mini aplicação de horário de funcionamento](https://github.com/alexmuniz96/todayilearned/tree/master/openingHours)
