@@ -31,6 +31,9 @@
 
 - [Factory Function](https://github.com/alexmuniz96/todayilearned/tree/master/factory-function)
 
+- [Destructuring](https://github.com/alexmuniz96/todayilearned/tree/master/destructuring)
+
+
 ### [Timer](https://github.com/alexmuniz96/todayilearned/tree/master/timer)
 
 ### [Mini aplicação de horário de funcionamento](https://github.com/alexmuniz96/todayilearned/tree/master/openingHours)
