@@ -6,7 +6,6 @@ export default function initFetchBitcoin(){
     const bodyBitcoin = await responseBitcoin.json()
     const btnPreco = document.querySelector(".btn-preco")
     btnPreco.innerHTML = (100 / bodyBitcoin.BRL.sell).toFixed(4)
-    console.log(bodyBitcoin.BRL.sell.toFixed(4))
   } catch(error){
     console.log(error)
   }
