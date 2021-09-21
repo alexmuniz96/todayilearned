@@ -14,6 +14,6 @@ function sum(a) {
 const sumFirstArgument = sum(2);
 // Atribui o valor 2 como o primeiro argumento
 
-console.log(sumFirstParameter(4));
+console.log(sumFirstArgument(4));
 // Retorna 6, a soma de 2 + 4
 ```

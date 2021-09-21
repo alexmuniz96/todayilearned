@@ -1,13 +1,8 @@
-
 # Today I learned
 
 É um repositório com coisas que vou aprendendo diariamente ou ocasionalmente.
 
-  
-
 ## Estudos Javascript
-
-  
 
 - [Selecionando elementos no dom](https://github.com/alexmuniz96/todayilearned/tree/master/selecionando-elementos-dom)
 
@@ -33,12 +28,13 @@
 
 - [Destructuring](https://github.com/alexmuniz96/todayilearned/tree/master/destructuring)
 
+- [Currying](https://github.com/alexmuniz96/todayilearned/tree/master/currying)
 
 ### [Timer](https://github.com/alexmuniz96/todayilearned/tree/master/timer)
 
 ### [Mini aplicação de horário de funcionamento](https://github.com/alexmuniz96/todayilearned/tree/master/openingHours)
 
-Desenvolvimento de um timer simples usando o  `setInterval()`  e  `clearInterval()`
+Desenvolvimento de um timer simples usando o `setInterval()` e `clearInterval()`
 
 ## Estudos de Node.js
 
