@@ -30,6 +30,8 @@
 
 - [Currying](https://github.com/alexmuniz96/todayilearned/tree/master/currying)
 
+- [Object oriented javascript](https://github.com/alexmuniz96/todayilearned/tree/master/orientacao-objetos)
+
 ### [Timer](https://github.com/alexmuniz96/todayilearned/tree/master/timer)
 
 ### [Mini aplicação de horário de funcionamento](https://github.com/alexmuniz96/todayilearned/tree/master/openingHours)
