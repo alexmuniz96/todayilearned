@@ -27,7 +27,7 @@ console.log(pug.move());
 //Retorna walking
 ```
 
-Porém a um detalhe no método acima, toda vez que um `new Dog` for criado os métodos `move` e `bark` também seram criados novamente se repetindo, o que não seria bom, e o método para evitar isso seria:
+Porém a um detalhe no método acima, toda vez que um `new Dog` for criado os métodos `move` e `bark` também seram criados novamente se repetindo, o que não seria bom, o que pode ser feito para evitar isso seria:
 
 ### Ao criar um função construtora escrever direto no `prototype`
 
@@ -56,4 +56,35 @@ console.log(pug.bark()){
 //Retorna Au, Au
 
 }
+```
+## Classes
+Outro método de usar herança é com `class` e `extends` por debaixo dos panos faz o mesmo que o método a cima porem com uma sintaxe um pouco mais simples.
+
+
+```javascript
+
+class Animal {
+  constructor(numberOfPaws) {
+    this.numberOfPaws = 0;
+  }
+  move() { }
+}
+
+class Dog extends Animal {
+  constructor(bite) {
+    super()
+    this.bite = bite
+    this.numberOfPaws = 4
+     // é possivel acessar a propriedade numberOfPaws de Animal
+  }
+  bark() {
+    console.log("Au, Au!")
+  }
+}
+
+const pug = new Dog(false)
+
+console.log(Pitbull)
+// Retorna {numberOfPaws: 4, bite: false}
+
 ```
