@@ -32,6 +32,8 @@
 
 - [Object oriented javascript](https://github.com/alexmuniz96/todayilearned/tree/master/orientacao-objetos)
 
+- [Symbols](https://github.com/alexmuniz96/todayilearned/tree/master/symbols)
+
 ### [Timer](https://github.com/alexmuniz96/todayilearned/tree/master/timer)
 
 ### [Mini aplicação de horário de funcionamento](https://github.com/alexmuniz96/todayilearned/tree/master/openingHours)
