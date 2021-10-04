@@ -1,17 +1,35 @@
-export default function initScroll() {
-  const menu = document.querySelectorAll(" [data-menu='suave'] [href^='#']")
+export default class SmoothScroll {
+  constructor(links, options) {
+    this.menu = document.querySelectorAll(links)
+    if (this.options === undefined) {
+      this.options = {
+        behavior: 'smooth',
+        block: 'start'
+      }
+    } else {
+      this.options = options
+    }
 
-  function scrollTo(e){
+    this.scrollToSection = this.scrollToSection.bind(this)
+  }
+
+  scrollToSection(e) {
     e.preventDefault()
     const href = e.currentTarget.getAttribute("href")
     const section = document.querySelector(href)
-    section.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
+    section.scrollIntoView(this.options)
+  }
+
+  addLinkEvent() {
+    this.menu.forEach((el) => {
+      el.addEventListener("click", this.scrollToSection)
     })
   }
 
-  menu.forEach((el) =>{
-    el.addEventListener("click", scrollTo)
-  })
+  init() {
+    if (this.menu.length) {
+      this.addLinkEvent()
+      return this
+    }
+  }
 }
