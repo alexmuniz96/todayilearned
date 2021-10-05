@@ -1,6 +1,6 @@
 import SmoothScroll from "./smoothScroll.js"
 import initTabNavMenu from "./tabNav.js"
-import initAccordion from "./accordion.js"
+import Accordion from "./accordion.js"
 import initAnimate from "./animateScroll.js"
 import initModal from "./modal.js"
 import initTooltip from "./tooltip.js"
@@ -12,12 +12,14 @@ import initFetchBitcoin from "./fetchBitcoin.js"
 
 
 const scrollSmooth = new SmoothScroll(" [data-menu='suave'] [href^='#']")
-
 scrollSmooth.init()
+
+const accordion = new Accordion("[data-anime='accordion'] dt")
+console.log(accordion)
+accordion.init()
 
 
 initTabNavMenu()
-initAccordion()
 initAnimate()
 initModal()
 initTooltip()
