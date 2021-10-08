@@ -3,7 +3,7 @@ import TabNavMenu from "./tabNav.js"
 import Accordion from "./accordion.js"
 import initAnimate from "./animateScroll.js"
 import Modal from "./modal.js"
-import initTooltip from "./tooltip.js"
+import Tooltip from "./tooltip.js"
 import initDropdown from "./dropdown.js"
 import menuMobile from "./menu-mobile.js"
 import initOpeningHours from "./openingHours.js"
@@ -23,9 +23,10 @@ tabNav.init()
 const modal = new Modal('[data-modal="fechar"]', '[data-modal="abrir"]', '[data-modal="container"]')
 modal.init()
 
+const tooltip = new Tooltip("[data-tooltip]")
+tooltip.init()
 
 initAnimate()
-initTooltip()
 initDropdown()
 menuMobile()
 initOpeningHours()
