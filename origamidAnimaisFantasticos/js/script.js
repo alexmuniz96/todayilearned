@@ -7,7 +7,7 @@ import Tooltip from "./tooltip.js"
 import initDropdown from "./dropdown.js"
 import menuMobile from "./menu-mobile.js"
 import initOpeningHours from "./openingHours.js"
-import initFetchAnimais from "./fetchAnimais.js"
+import FetchAnimais from "./fetchAnimais.js"
 import initFetchBitcoin from "./fetchBitcoin.js"
 
 
@@ -30,5 +30,5 @@ initAnimate()
 initDropdown()
 menuMobile()
 initOpeningHours()
-initFetchAnimais()
+FetchAnimais("../animais.json", ".numeros-grid")
 initFetchBitcoin()
