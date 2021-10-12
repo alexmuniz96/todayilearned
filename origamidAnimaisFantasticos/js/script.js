@@ -8,7 +8,7 @@ import initDropdown from "./dropdown.js"
 import menuMobile from "./menu-mobile.js"
 import initOpeningHours from "./openingHours.js"
 import FetchAnimais from "./fetchAnimais.js"
-import initFetchBitcoin from "./fetchBitcoin.js"
+import FetchBitcoin from "./fetchBitcoin.js"
 
 
 const scrollSmooth = new SmoothScroll(" [data-menu='suave'] [href^='#']")
@@ -31,4 +31,6 @@ initDropdown()
 menuMobile()
 initOpeningHours()
 FetchAnimais("../animais.json", ".numeros-grid")
-initFetchBitcoin()
+FetchBitcoin("https://blockchain.info/ticker", ".btn-preco")
+
+
