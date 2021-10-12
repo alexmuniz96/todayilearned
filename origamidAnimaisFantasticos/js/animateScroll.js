@@ -19,7 +19,6 @@ export default class AnimaScroll {
   }
 
   checkDistance() {
-    console.log("checkDistance rodando")
     this.distance.forEach(item => {
       if (window.pageYOffset > item.offset) {
         item.element.classList.add("ativo")
