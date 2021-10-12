@@ -1,7 +1,7 @@
 import SmoothScroll from "./smoothScroll.js"
 import TabNavMenu from "./tabNav.js"
 import Accordion from "./accordion.js"
-import initAnimate from "./animateScroll.js"
+import AnimaScroll from "./animateScroll.js"
 import Modal from "./modal.js"
 import Tooltip from "./tooltip.js"
 import initDropdown from "./dropdown.js"
@@ -26,7 +26,9 @@ modal.init()
 const tooltip = new Tooltip("[data-tooltip]")
 tooltip.init()
 
-initAnimate()
+const animateScroll = new AnimaScroll("[data-anime='scroll']")
+animateScroll.init()
+
 initDropdown()
 menuMobile()
 initOpeningHours()
