@@ -6,7 +6,7 @@ import Modal from "./modal.js"
 import Tooltip from "./tooltip.js"
 import DropdownMenu from "./dropdown.js"
 import MenuMobile from "./menu-mobile.js"
-import initOpeningHours from "./openingHours.js"
+import OpeningHours from "./openingHours.js"
 import FetchAnimais from "./fetchAnimais.js"
 import FetchBitcoin from "./fetchBitcoin.js"
 
@@ -35,8 +35,10 @@ dropdownMenu.init()
 const menuMobile = new MenuMobile("[data-menu='list']", '[data-menu="button"]')
 menuMobile.init()
 
-initOpeningHours()
-FetchAnimais("../animais.json", ".numeros-grid")
+const openingHours = new OpeningHours("[data-week='1,2,3,4,5']", "open", "close")
+openingHours.init()
+
+FetchAnimais("./animais.json", ".numeros-grid")
 FetchBitcoin("https://blockchain.info/ticker", ".btn-preco")
 
 
