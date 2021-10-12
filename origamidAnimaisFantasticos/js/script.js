@@ -4,7 +4,7 @@ import Accordion from "./accordion.js"
 import AnimaScroll from "./animateScroll.js"
 import Modal from "./modal.js"
 import Tooltip from "./tooltip.js"
-import initDropdown from "./dropdown.js"
+import DropdownMenu from "./dropdown.js"
 import menuMobile from "./menu-mobile.js"
 import initOpeningHours from "./openingHours.js"
 import FetchAnimais from "./fetchAnimais.js"
@@ -29,7 +29,9 @@ tooltip.init()
 const animateScroll = new AnimaScroll("[data-anime='scroll']")
 animateScroll.init()
 
-initDropdown()
+const dropdownMenu = new DropdownMenu("[data-dropdown]")
+dropdownMenu.init()
+
 menuMobile()
 initOpeningHours()
 FetchAnimais("../animais.json", ".numeros-grid")
