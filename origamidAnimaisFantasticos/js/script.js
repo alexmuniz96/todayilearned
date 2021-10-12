@@ -5,7 +5,7 @@ import AnimaScroll from "./animateScroll.js"
 import Modal from "./modal.js"
 import Tooltip from "./tooltip.js"
 import DropdownMenu from "./dropdown.js"
-import menuMobile from "./menu-mobile.js"
+import MenuMobile from "./menu-mobile.js"
 import initOpeningHours from "./openingHours.js"
 import FetchAnimais from "./fetchAnimais.js"
 import FetchBitcoin from "./fetchBitcoin.js"
@@ -32,7 +32,9 @@ animateScroll.init()
 const dropdownMenu = new DropdownMenu("[data-dropdown]")
 dropdownMenu.init()
 
-menuMobile()
+const menuMobile = new MenuMobile("[data-menu='list']", '[data-menu="button"]')
+menuMobile.init()
+
 initOpeningHours()
 FetchAnimais("../animais.json", ".numeros-grid")
 FetchBitcoin("https://blockchain.info/ticker", ".btn-preco")
