@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  height: 100%;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  --white: #FFFF;
+  --purple: #5A1E82;
+  --pink: #F14884;
+  --yellow: #FFBF3F;
+  --grey-500: #666666;
+  --grey-800: #222222;
+}
+
+header {
+  max-width: 1120px;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  max-width: 200px;
+  height: 55px;
+}
+header nav ul {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+header nav ul li + li {
+  margin-left: 4.5rem;
+}
+header nav ul li a {
+  color: var(--grey-500);
+  padding: 40px 0;
+}
+header nav ul li a:hover {
+  color: var(--purple);
+  border-bottom: solid 2px var(--purple);
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-height: 40px;
+}
+header div button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  width: 85px;
+  height: 40px;
+  color: var(--white);
+  border: 0;
+  background: url("../assets/btn-bg.png") no-repeat var(--purple);
+  cursor: pointer;
+}
+header div button:hover {
+  filter: brightness(1.1);
+}
+header div button img {
+  width: 24px;
+  height: 24px;
+}
+header div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  width: 155px;
+  font-size: 1.2rem;
+  color: var(--white);
+  background: url("../assets/button-background-pink.png") no-repeat;
+}
+header div a img {
+  width: 24px;
+  height: 24px;
+}
+
+/*# sourceMappingURL=styles.css.map */

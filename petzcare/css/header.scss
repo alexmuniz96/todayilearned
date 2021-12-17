@@ -1,0 +1,96 @@
+header{
+  max-width: 1120px;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img{
+    max-width: 200px;
+    height: 55px;
+  }
+
+  nav{
+
+    ul{
+      display: flex;
+      font-size: 1.6rem;
+      font-weight:400;
+      
+      li{
+        
+        & + li {
+          margin-left: 4.5rem;
+          
+        }
+
+        a {
+          color: var(--grey-500);
+          padding: 40px 0;
+         
+
+          &:hover{
+            color: var(--purple);
+            border-bottom: solid 2px var(--purple);
+          }
+
+        }
+
+      }
+    }
+  }
+
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 40px;
+
+    button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Poppins', sans-serif ;
+      font-size: 1.2rem;
+      width: 85px;
+      height: 40px;
+      color: var(--white);
+      border: 0;
+      background: url('../assets/btn-bg.png') no-repeat var(--purple);
+  
+      cursor: pointer;
+
+      &:hover{
+        filter: brightness(1.1);
+      }
+
+      img{
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    a{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 42px;
+      width: 155px;
+      font-size: 1.2rem;
+      color: var(--white);
+
+      background: url('../assets/button-background-pink.png') no-repeat;
+
+      img{
+        width: 24px;
+        height: 24px;
+      }
+
+    }
+
+  }
+
+
+
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0 ;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  height: 100%;
+}
+
+html{
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+  --white: #FFFF;
+  --purple: #5A1E82;
+  --pink: #F14884;
+  --yellow: #FFBF3F;
+  --grey-500: #666666;
+  --grey-800: #222222;
+}
+
